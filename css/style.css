@@ -567,3 +567,18 @@
         font-size: 2rem;
     }
 }
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-brand img {
+        max-height: 100px;
+    }
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.8rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
